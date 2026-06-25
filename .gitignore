@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+
+# Compiled binaries
+gtcrn_linux
+gtcrn_linux_mips
+gtcrn_linux_q15
+gtcrn_linux_lut
+gtcrn_linux_x64
+gtcrn_linux_test
+gtcrn_ll_mips
+gtcrn_ll_x64
+gtcrn_ll_dbg
+gtcrn_ll_diag
+gtcrn_passthru
+gtcrn_pc_test
+gtcrn_seq_dbg
+batch_test
+*.o
+
+# Debug / temp directories
+c_version/tmp/
+c_version/x2000_deploy/
+
+# Binary dump files
+*.bin
+*.npy
+*.bak
+*.bak_*
+
+# Test output
+test_output/
+x2000_test/
+*.wav
+*.raw
+*.pcm
+
+# IDE / editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
